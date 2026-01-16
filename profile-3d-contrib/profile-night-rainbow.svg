@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="3D contrib placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f0c29"/>
+      <stop offset="0.55" stop-color="#302b63"/>
+      <stop offset="1" stop-color="#00d4ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="380" rx="18" fill="url(#bg)"/>
+  <rect x="18" y="18" width="1164" height="344" rx="14" fill="#0d1117" opacity="0.55"/>
+  <text x="60" y="110" fill="#ffffff" font-size="44" font-weight="800"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace">contribution.field</text>
+  <text x="60" y="168" fill="#d7f9ff" opacity="0.95" font-size="20"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace">
+    Waiting for GitHub Actions to generate profile-3d-contrib/*.svg
+  </text>
+  <text x="60" y="208" fill="#d7f9ff" opacity="0.85" font-size="16"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace">
+    (Run workflow manually once. Then it updates nightly.)
+  </text>
+  <g opacity="0.28" fill="#ffffff">
+    <rect x="60" y="255" width="80" height="80" rx="12"/>
+    <rect x="155" y="275" width="80" height="60" rx="12"/>
+    <rect x="250" y="235" width="80" height="100" rx="12"/>
+    <rect x="345" y="265" width="80" height="70" rx="12"/>
+  </g>
+</svg>

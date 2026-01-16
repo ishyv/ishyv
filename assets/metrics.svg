@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Metrics placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f0c29"/>
+      <stop offset="0.55" stop-color="#302b63"/>
+      <stop offset="1" stop-color="#00d4ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" rx="18" fill="url(#bg)"/>
+  <rect x="18" y="18" width="1164" height="384" rx="14" fill="#0d1117" opacity="0.55"/>
+  <text x="60" y="110" fill="#ffffff" font-size="44" font-weight="800"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace">metrics.render</text>
+  <text x="60" y="168" fill="#d7f9ff" opacity="0.95" font-size="20"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace">
+    Waiting for GitHub Actions to generate assets/metrics.svg
+  </text>
+  <text x="60" y="208" fill="#d7f9ff" opacity="0.85" font-size="16"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace">
+    (Run the workflow manually once, then it will update nightly.)
+  </text>
+  <g opacity="0.35" fill="#ffffff">
+    <rect x="60" y="270" width="520" height="10" rx="5"/>
+    <rect x="60" y="295" width="420" height="10" rx="5"/>
+    <rect x="60" y="320" width="620" height="10" rx="5"/>
+    <rect x="60" y="345" width="360" height="10" rx="5"/>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Snake placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f0c29"/>
+      <stop offset="0.55" stop-color="#302b63"/>
+      <stop offset="1" stop-color="#00d4ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect x="18" y="18" width="1164" height="264" rx="14" fill="#0d1117" opacity="0.55"/>
+  <text x="60" y="110" fill="#ffffff" font-size="44" font-weight="800"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace">grid.snake</text>
+  <text x="60" y="168" fill="#d7f9ff" opacity="0.95" font-size="20"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace">
+    Waiting for GitHub Actions to generate assets/snake.svg
+  </text>
+  <g opacity="0.28" fill="#ffffff">
+    <rect x="60" y="215" width="42" height="42" rx="8"/>
+    <rect x="110" y="215" width="42" height="42" rx="8"/>
+    <rect x="160" y="215" width="42" height="42" rx="8"/>
+    <rect x="210" y="215" width="42" height="42" rx="8"/>
+    <rect x="260" y="215" width="42" height="42" rx="8"/>
+    <rect x="310" y="215" width="42" height="42" rx="8"/>
+    <rect x="360" y="215" width="42" height="42" rx="8"/>
+    <rect x="410" y="215" width="42" height="42" rx="8"/>
+  </g>
+</svg>
