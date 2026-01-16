@@ -43,25 +43,16 @@
 
 </details>
 
----
-
-## metrics.render (generated nightly)
 
 <p align="center">
   <img src="assets/metrics.svg" alt="metrics" width="95%"/>
 </p>
 
----
-
-## contribution.field (generated nightly)
 
 <p align="center">
   <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3d contributions" width="95%"/>
 </p>
 
----
-
-## grid.snake (generated nightly)
 
 <p align="center">
   <img src="assets/snake.svg" alt="snake" width="95%"/>
@@ -72,9 +63,6 @@
 <details>
   <summary><b>Hidden panel</b></summary>
 
-If you’re reading this: congrats, you found the trapdoor.
-
-> I build tools because I hate doing the same thing twice.  
-> If a process annoys me, it gets automated or deleted.
+If you’re reading this: It's time to get a j*b
 
 </details>
