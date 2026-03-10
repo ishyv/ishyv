@@ -75,7 +75,7 @@
 <code>04 / residue</code>
 
 <p align="center">
-  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3d contributions" width="100%"/>
+  <img src="assets/residue.svg" alt="activity residue" width="100%"/>
 </p>
 
     </td>
@@ -84,7 +84,7 @@
 <code>05 / motion</code>
 
 <p align="center">
-  <img src="assets/snake.svg" alt="snake" width="100%"/>
+  <img src="assets/motion.svg" alt="system motion map" width="100%"/>
 </p>
 
     </td>
