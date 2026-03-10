@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="36" viewBox="0 0 1200 36" role="img" aria-label="divider">
+  <rect width="1200" height="36" fill="#08090b"/>
+  <line x1="40" y1="18" x2="1160" y2="18" stroke="#c79c57" stroke-opacity="0.16" stroke-width="1"/>
+  <line x1="170" y1="18" x2="1030" y2="18" stroke="#79a6a3" stroke-opacity="0.14" stroke-width="1"/>
+  <path d="M16 6h18M16 6v10M1184 6h-18M1184 6v10M16 30h18M16 30V20M1184 30h-18M1184 30V20" stroke="#c79c57" stroke-opacity="0.34" stroke-width="1" fill="none"/>
+  <circle cx="600" cy="18" r="2.5" fill="#c79c57" fill-opacity="0.85"/>
+  <circle cx="592" cy="18" r="1.2" fill="#79a6a3" fill-opacity="0.7"/>
+  <circle cx="608" cy="18" r="1.2" fill="#79a6a3" fill-opacity="0.7"/>
+</svg>

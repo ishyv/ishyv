@@ -1,54 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="260" viewBox="0 0 1600 260" role="img" aria-label="Hyv banner">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" role="img" aria-label="Hyv operator dossier">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0f0c29"/>
-      <stop offset="0.55" stop-color="#302b63"/>
-      <stop offset="1" stop-color="#00d4ff"/>
+    <linearGradient id="bgFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#090b0d"/>
+      <stop offset="0.55" stop-color="#08090b"/>
+      <stop offset="1" stop-color="#050607"/>
     </linearGradient>
-
-    <pattern id="scan" width="6" height="6" patternUnits="userSpaceOnUse">
-      <rect width="6" height="6" fill="none"/>
-      <rect y="0" width="6" height="1" fill="#ffffff" opacity="0.06"/>
+    <radialGradient id="goldGlow" cx="0.15" cy="0.05" r="0.7">
+      <stop offset="0" stop-color="#c79c57" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#c79c57" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tealGlow" cx="0.82" cy="0.24" r="0.52">
+      <stop offset="0" stop-color="#79a6a3" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#79a6a3" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M72 0H0V72" fill="none" stroke="#c79c57" stroke-opacity="0.07" stroke-width="1"/>
+      <path d="M0 0V72H72" fill="none" stroke="#79a6a3" stroke-opacity="0.05" stroke-width="1"/>
     </pattern>
-
-    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    <linearGradient id="panelWash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c79c57" stop-opacity="0.10"/>
+      <stop offset="0.42" stop-color="#12151a" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#08090b" stop-opacity="0"/>
     </linearGradient>
   </defs>
 
-  <rect width="1600" height="260" fill="url(#bg)"/>
-  <rect width="1600" height="260" fill="url(#scan)"/>
-  <rect width="1600" height="260" fill="url(#glow)"/>
+  <rect width="1600" height="420" fill="url(#bgFade)"/>
+  <rect width="1600" height="420" fill="url(#goldGlow)"/>
+  <rect width="1600" height="420" fill="url(#tealGlow)"/>
+  <rect x="0" y="0" width="1600" height="420" fill="url(#grid)" opacity="0.9"/>
 
-  <!-- Glitch blocks (static, GitHub-safe) -->
-  <g opacity="0.18" fill="#0d1117">
-    <rect x="980" y="34" width="540" height="10"/>
-    <rect x="1040" y="62" width="420" height="8"/>
-    <rect x="1120" y="86" width="300" height="8"/>
-    <rect x="1240" y="118" width="220" height="8"/>
-  </g>
-  <g opacity="0.22" fill="#ffffff">
-    <rect x="980" y="48" width="360" height="3"/>
-    <rect x="980" y="102" width="240" height="3"/>
-    <rect x="980" y="156" width="180" height="3"/>
-  </g>
+  <rect x="36" y="32" width="1528" height="356" fill="#0a0c0f" fill-opacity="0.68" stroke="#c79c57" stroke-opacity="0.18"/>
+  <rect x="58" y="54" width="1484" height="312" fill="url(#panelWash)" stroke="#79a6a3" stroke-opacity="0.14"/>
 
-  <!-- Title -->
-  <text x="86" y="132"
-        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
-        font-size="86" fill="#ffffff" font-weight="800">HYV</text>
+  <path d="M82 80h30v-18M82 80V50M1518 80h-30v-18M1518 80V50M82 340h30v18M82 340V370M1518 340h-30v18M1518 340V370" stroke="#c79c57" stroke-opacity="0.32" stroke-width="1.2" fill="none"/>
 
-  <text x="90" y="178"
-        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
-        font-size="26" fill="#d7f9ff" opacity="0.95">UMBRAL // console operator · systems · tooling · automation</text>
+  <text x="108" y="106" fill="#7e7568" font-family="'IBM Plex Mono','Menlo','Consolas',monospace" font-size="18" letter-spacing="3.2">01 / operator-dossier</text>
+  <text x="108" y="192" fill="#f0e8da" font-family="Georgia,'Times New Roman',serif" font-size="108" letter-spacing="-4">hyv</text>
+  <text x="112" y="236" fill="#d8cdb9" font-family="Georgia,'Times New Roman',serif" font-size="28" font-style="italic">quiet systems. small rituals. good tools with bad intentions.</text>
 
-  <!-- Status panel -->
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="16" fill="#e9feff" opacity="0.92">
-    <text x="1180" y="72">status: online</text>
-    <text x="1180" y="96">mode: build-and-ship</text>
-    <text x="1180" y="120">patience: low</text>
-  </g>
+  <line x1="110" y1="272" x2="740" y2="272" stroke="#c79c57" stroke-opacity="0.22" stroke-width="1"/>
+  <text x="110" y="306" fill="#a79d8b" font-family="'IBM Plex Mono','Menlo','Consolas',monospace" font-size="18" letter-spacing="2.4">rust / typescript / python</text>
+  <text x="110" y="336" fill="#7e7568" font-family="'IBM Plex Mono','Menlo','Consolas',monospace" font-size="16" letter-spacing="2">tooling  bots  automation  internal weirdness</text>
 
-  <rect x="80" y="210" width="1440" height="1" fill="#ffffff" opacity="0.35"/>
+  <rect x="960" y="92" width="466" height="212" fill="#0d1013" fill-opacity="0.78" stroke="#c79c57" stroke-opacity="0.18"/>
+  <rect x="978" y="110" width="430" height="176" fill="none" stroke="#79a6a3" stroke-opacity="0.14"/>
+
+  <text x="996" y="132" fill="#7e7568" font-family="'IBM Plex Mono','Menlo','Consolas',monospace" font-size="16" letter-spacing="2.8">readout</text>
+  <text x="996" y="170" fill="#79a6a3" font-family="'IBM Plex Mono','Menlo','Consolas',monospace" font-size="22">[ OK ]</text>
+  <text x="1092" y="170" fill="#d8cdb9" font-family="'IBM Plex Mono','Menlo','Consolas',monospace" font-size="20">builds things that outlive the annoyance</text>
+  <text x="996" y="208" fill="#79a6a3" font-family="'IBM Plex Mono','Menlo','Consolas',monospace" font-size="22">[ OK ]</text>
+  <text x="1092" y="208" fill="#d8cdb9" font-family="'IBM Plex Mono','Menlo','Consolas',monospace" font-size="20">prefers signal over performance art</text>
+  <text x="996" y="246" fill="#c79c57" font-family="'IBM Plex Mono','Menlo','Consolas',monospace" font-size="22">[WARN]</text>
+  <text x="1092" y="246" fill="#d8cdb9" font-family="'IBM Plex Mono','Menlo','Consolas',monospace" font-size="20">left unsupervised with terminals</text>
+
+  <line x1="996" y1="268" x2="1388" y2="268" stroke="#c79c57" stroke-opacity="0.14"/>
+  <text x="996" y="292" fill="#7e7568" font-family="'IBM Plex Mono','Menlo','Consolas',monospace" font-size="14" letter-spacing="2.4">case file //</text>
+  <text x="1118" y="292" fill="#a79d8b" font-family="'IBM Plex Mono','Menlo','Consolas',monospace" font-size="14" letter-spacing="1.4">open, but stable enough</text>
 </svg>

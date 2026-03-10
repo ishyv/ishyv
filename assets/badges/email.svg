@@ -1,12 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="140" height="28" viewBox="0 0 140 28">
-  <defs>
-    <linearGradient id="g" x1="0" x2="1">
-      <stop offset="0" stop-color="#302b63"/>
-      <stop offset="1" stop-color="#00d4ff"/>
-    </linearGradient>
-  </defs>
-  <rect x="0" y="0" width="140" height="28" rx="8" fill="url(#g)"/>
-  <text x="70" y="19" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" font-size="13" fill="#ffffff" font-weight="700">
-    Email
-  </text>
+<svg xmlns="http://www.w3.org/2000/svg" width="148" height="30" viewBox="0 0 148 30" role="img" aria-label="Email">
+  <rect width="148" height="30" fill="#12151a" stroke="#c79c57" stroke-opacity="0.28"/>
+  <rect x="4" y="4" width="140" height="22" fill="none" stroke="#79a6a3" stroke-opacity="0.16"/>
+  <text x="74" y="19.5" text-anchor="middle" font-family="'IBM Plex Mono','Menlo','Consolas',monospace" font-size="13" letter-spacing="1.5" fill="#f0e8da">mail</text>
 </svg>
