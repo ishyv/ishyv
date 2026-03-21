@@ -29,7 +29,7 @@
 
 <table>
   <tr>
-    <td width="54%" valign="top">
+<td width="54%" valign="top">
 
 <code>01 / brief</code>
 
@@ -42,8 +42,8 @@
 
 <sub><i>i like tools that feel old enough to trust and mean enough to bite.</i></sub>
 
-    </td>
-    <td width="46%" valign="top">
+</td>
+<td width="46%" valign="top">
 
 <code>02 / notes</code>
 
@@ -54,7 +54,7 @@
 
 <sub>minimalism, but not the fake sterile kind.</sub>
 
-    </td>
+</td>
   </tr>
 </table>
 
@@ -62,7 +62,7 @@
   <img src="assets/divider.svg" alt="" width="100%"/>
 </p>
 
-`03 / telemetry`
+<p align="center"><code>03 / telemetry</code></p>
 
 <p align="center">
   <img src="assets/metrics.svg" alt="metrics" width="94%"/>
@@ -70,7 +70,7 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+<td width="50%" valign="top">
 
 <code>04 / residue</code>
 
@@ -78,8 +78,8 @@
   <img src="assets/residue.svg" alt="activity residue" width="100%"/>
 </p>
 
-    </td>
-    <td width="50%" valign="top">
+</td>
+<td width="50%" valign="top">
 
 <code>05 / motion</code>
 
@@ -87,7 +87,7 @@
   <img src="assets/motion.svg" alt="system motion map" width="100%"/>
 </p>
 
-    </td>
+</td>
   </tr>
 </table>
 
