@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
-  <title id="title">hyv. artifact cabinet.</title>
-  <desc id="desc">A quiet dark masthead for Hendrick's public artifact cabinet.</desc>
+  <title id="title">hyv. profile.</title>
+  <desc id="desc">A dark masthead for Hendrick's public profile.</desc>
   <defs>
     <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
       <path d="M54 0H0V54" fill="none" stroke="#252b2e" stroke-width="1" opacity="0.45"/>
@@ -19,7 +19,7 @@
   <path d="M68 76V58H88 M1132 76V58H1112 M68 184V202H88 M1132 184V202H1112" fill="none" stroke="#c79c57" stroke-opacity="0.62" stroke-width="2"/>
   <text x="88" y="172" fill="#f0e8da" font-family="Georgia, 'Times New Roman', serif" font-size="124" letter-spacing="-5">hyv.</text>
   <line x1="484" y1="82" x2="1088" y2="82" stroke="#4a4134"/>
-  <text x="492" y="133" fill="#c79c57" font-family="'IBM Plex Mono', 'Cascadia Mono', Consolas, monospace" font-size="30" letter-spacing="4">artifact cabinet</text>
-  <text x="492" y="178" fill="#a79d8b" font-family="'IBM Plex Mono', 'Cascadia Mono', Consolas, monospace" font-size="25" letter-spacing="2">public shelf · hendrick, online</text>
+  <text x="492" y="133" fill="#c79c57" font-family="'IBM Plex Mono', 'Cascadia Mono', Consolas, monospace" font-size="30" letter-spacing="4">profile</text>
+  <text x="492" y="178" fill="#a79d8b" font-family="'IBM Plex Mono', 'Cascadia Mono', Consolas, monospace" font-size="25" letter-spacing="2">hendrick · online</text>
   <circle cx="1084" cy="168" r="6" fill="#79a6a3"/>
 </svg>
