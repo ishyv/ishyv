@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="540" viewBox="0 0 600 540" role="img" aria-labelledby="title desc">
+  <title id="title">recently disturbed public artifact cabinet</title>
+  <desc id="desc">Five curated public repositories shown from creation to their latest default-branch commit. Most recent: ashenmoon. Longest kept: darkh-bot.</desc>
+  <defs>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#d8cebd" stroke-width="1" opacity="0.48"/>
+    </pattern>
+    <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8a6229" stop-opacity="0.08"/>
+      <stop offset="0.48" stop-color="#ebe3d5" stop-opacity="0"/>
+      <stop offset="1" stop-color="#416f6d" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: "IBM Plex Mono", "Cascadia Mono", Consolas, monospace; font-weight: 400; }
+    .section { fill: #8a6229; font-size: 22px; letter-spacing: 1.8px; }
+    .scope { fill: #665b4d; font-size: 20px; }
+    .accession { fill: #8a6229; font-size: 20px; }
+    .name { fill: #201c17; font-size: 22px; }
+    .meta, .date { fill: #665b4d; font-size: 20px; }
+    .lifespan { stroke: #b8a98f; stroke-width: 3; stroke-linecap: round; }
+    .origin { fill: #8a6229; }
+    .touch { fill: #416f6d; stroke: #f4efe5; stroke-width: 2; }
+    .summary-label { fill: #766a5a; font-size: 20px; }
+    .summary-value { fill: #393128; font-size: 20px; }
+  </style>
+  <rect width="600" height="540" fill="#f4efe5"/>
+  <rect x="1" y="1" width="598" height="538" fill="none" stroke="#b8a98f"/>
+  <rect x="18" y="18" width="564" height="504" fill="url(#grid)" stroke="#b8a98f" opacity="0.92"/>
+  <rect x="18" y="18" width="564" height="504" fill="url(#wash)"/>
+  <path d="M36 54V34H56 M564 54V34H544 M36 500V522H56 M564 500V522H544" fill="none" stroke="#8a6229" opacity="0.52"/>
+  <text x="42" y="62" class="section">02 / recently disturbed</text>
+  <text x="42" y="94" class="scope">public repositories · refreshed weekly</text>
+  <line x1="42" x2="558" y1="112" y2="112" stroke="#b8a98f"/>
+  <text x="42" y="145" class="accession">A-01</text><text x="108" y="135" class="name">darkh-bot</text><text x="108" y="160" class="meta">Python · 2021</text><line data-lifespan="darkh-bot" x1="250.00" x2="521.58" y1="140" y2="140" class="lifespan"/><circle cx="250.00" cy="140" r="4" class="origin"/><circle cx="521.58" cy="140" r="6" class="touch"/><text x="574" y="164" class="date" text-anchor="end">12 jan 2026</text><text x="42" y="199" class="accession">A-02</text><text x="108" y="189" class="name">lang</text><text x="108" y="214" class="meta">C · 2024</text><line data-lifespan="lang" x1="434.00" x2="540.29" y1="194" y2="194" class="lifespan"/><circle cx="434.00" cy="194" r="4" class="origin"/><circle cx="540.29" cy="194" r="6" class="touch"/><text x="574" y="218" class="date" text-anchor="end">05 may 2026</text><text x="42" y="253" class="accession">A-03</text><text x="108" y="243" class="name">revenant</text><text x="108" y="268" class="meta">Rust · 2025</text><line data-lifespan="revenant" x1="501.60" x2="540.59" y1="248" y2="248" class="lifespan"/><circle cx="501.60" cy="248" r="4" class="origin"/><circle cx="540.59" cy="248" r="6" class="touch"/><text x="574" y="272" class="date" text-anchor="end">07 may 2026</text><text x="42" y="307" class="accession">A-04</text><text x="108" y="297" class="name">hyvui</text><text x="108" y="322" class="meta">Svelte · 2026</text><line data-lifespan="hyvui" x1="531.72" x2="544.58" y1="302" y2="302" class="lifespan"/><circle cx="531.72" cy="302" r="4" class="origin"/><circle cx="544.58" cy="302" r="6" class="touch"/><text x="574" y="326" class="date" text-anchor="end">31 may 2026</text><text x="42" y="361" class="accession">A-05</text><text x="108" y="351" class="name">ashenmoon</text><text x="108" y="376" class="meta">TypeScript · 2026</text><line data-lifespan="ashenmoon" x1="546.20" x2="550.00" y1="356" y2="356" class="lifespan"/><circle cx="546.20" cy="356" r="4" class="origin"/><circle cx="550.00" cy="356" r="6" class="touch"/><text x="574" y="380" class="date" text-anchor="end">03 jul 2026</text>
+  <line x1="42" x2="558" y1="394" y2="394" stroke="#b8a98f"/>
+  <text x="230" y="426" class="summary-label" text-anchor="end">recently disturbed</text><text x="244" y="426" class="summary-value">ashenmoon · 03 jul 2026</text><text x="230" y="462" class="summary-label" text-anchor="end">longest kept</text><text x="244" y="462" class="summary-value">darkh-bot · 4y 6m</text><text x="230" y="498" class="summary-label" text-anchor="end">returned to</text><text x="244" y="498" class="summary-value">nothing old reopened lately</text>
+</svg>
