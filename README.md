@@ -1,106 +1,43 @@
-<!-- =========================================================
-  HYV // OPERATOR DOSSIER
-  Built for GitHub's markdown sandbox. No widgets. No filler.
-========================================================== -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/masthead-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/masthead-light.svg">
+  <img src="assets/masthead-light.svg" alt="hyv. artifact cabinet." width="100%">
+</picture>
 
-<p align="center">
-  <img src="assets/hero.svg" alt="Hyv operator dossier" width="100%"/>
-</p>
+> i’m hendrick. online, usually hyv.
+>
+> i make systems that solve real annoyances without sanding off every sign that a person was there. quiet where they should be. opinionated where it matters. sometimes a little unnecessary.
 
-<p align="center">
-  <sub><code>operator: hyv</code> &nbsp; <code>zone: tooling / bots / automation</code> &nbsp; <code>status: mostly contained</code></sub>
-</p>
+## `01 / things i couldn’t leave alone`
 
-<p align="center">
-  <a href="https://github.com/ishyv">
-    <img src="assets/badges/github.svg" alt="GitHub" height="30"/>
-  </a>
-  <a href="mailto:ishyv@proton.me">
-    <img src="assets/badges/email.svg" alt="Email" height="30"/>
-  </a>
-  <a href="https://hyvnt.dev">
-    <img src="assets/badges/site.svg" alt="Website" height="30"/>
-  </a>
-</p>
+### A-01 · [`darkh-bot`](https://github.com/ishyv/darkh-bot) · 2021
 
-<p align="center">
-  <img src="assets/divider.svg" alt="" width="100%"/>
-</p>
+my first discord bot. *este espanto de código* stays public because history deserves witnesses.
 
-<table>
-  <tr>
-<td width="54%" valign="top">
+### A-02 · [`lang`](https://github.com/ishyv/lang) · 2024
 
-<code>01 / brief</code>
+a made-up scripting language that transpiles when nobody is looking. using an existing one would have been suspiciously reasonable.
 
-<pre lang="txt">
-[ OK ] builds strange useful things
-[ OK ] prefers quiet software
-[ OK ] keeps the sharp parts on purpose
-[WARN] may romanticize terminals a little
-</pre>
+### A-03 · [`revenant`](https://github.com/ishyv/revenant) · 2025
 
-<sub><i>i like tools that feel old enough to trust and mean enough to bite.</i></sub>
+one cli persuading rust, wasm, and sveltekit to cooperate. the setup annoyed me first.
 
-</td>
-<td width="46%" valign="top">
+### A-04 · [`hyvui`](https://github.com/ishyv/hyvui) · 2026
 
-<code>02 / notes</code>
+a ui library for software that should feel like somebody meant it.
 
-- rust when the rules matter
-- typescript when the mess needs a leash
-- python when the door will not open politely
-- bots, internal tools, automation, small systems with a pulse
+### A-05 · [`ashenmoon`](https://github.com/ishyv/ashenmoon) · 2026
 
-<sub>minimalism, but not the fake sterile kind.</sub>
+a dark-fantasy survival rpg. *un rpg, pero muy guapo.* the primary source appears biased.
 
-</td>
-  </tr>
-</table>
+## `02 / recently disturbed`
 
-<p align="center">
-  <img src="assets/divider.svg" alt="" width="100%"/>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ishyv/ishyv/generated/cabinet-trace-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ishyv/ishyv/generated/cabinet-trace-light.svg">
+  <img src="https://raw.githubusercontent.com/ishyv/ishyv/generated/cabinet-trace-light.svg" alt="Public timeline for five cabinet artifacts, showing when each was created and most recently changed." width="100%">
+</picture>
 
-<p align="center"><code>03 / telemetry</code></p>
+> still rearranging the cabinet.
 
-<p align="center">
-  <img src="assets/metrics.svg" alt="metrics" width="94%"/>
-</p>
-
-<table>
-  <tr>
-<td width="50%" valign="top">
-
-<code>04 / residue</code>
-
-<p align="center">
-  <img src="assets/residue.svg" alt="activity residue" width="100%"/>
-</p>
-
-</td>
-<td width="50%" valign="top">
-
-<code>05 / motion</code>
-
-<p align="center">
-  <img src="assets/motion.svg" alt="system motion map" width="100%"/>
-</p>
-
-</td>
-  </tr>
-</table>
-
-<p align="center">
-  <img src="assets/divider.svg" alt="" width="100%"/>
-</p>
-
-<details>
-  <summary><code>06 / sealed remarks</code></summary>
-  <br/>
-
-  if something here looks too deliberate, that is because it is.
-  <br/>
-  if something here looks slightly ominous, that is also deliberate.
-
-</details>
+<sub><a href="https://hyvnt.dev">site</a> · <a href="mailto:ishyv@proton.me">mail</a></sub>

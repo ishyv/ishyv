@@ -1,0 +1,11 @@
+{
+  "owner": "ishyv",
+  "return_after_days": 120,
+  "artifacts": [
+    {"accession": "A-01", "slug": "darkh-bot"},
+    {"accession": "A-02", "slug": "lang"},
+    {"accession": "A-03", "slug": "revenant"},
+    {"accession": "A-04", "slug": "hyvui"},
+    {"accession": "A-05", "slug": "ashenmoon"}
+  ]
+}
